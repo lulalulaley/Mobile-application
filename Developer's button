@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<title>MovieG</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="MovieG.css">
+<link rel="stylesheet" href="MovieG1.css">
+<body style="max-width:600px">
+
+<nav class="w3-sidebar w3-bar-block w3-card" id="mySidebar">
+<div class="w3-container w3-theme-d2">
+  <span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large">X</span>
+  <br>
+  <div class="w3-padding w3-center">
+    <img class="w3-circle" src="logo.png" alt="avatar" style="width:75%">
+  </div>
+</div>
+<a class="w3-bar-item w3-button" href="MovieG.html">Movies</a>
+<a class="w3-bar-item w3-button" href="developer's.html">Developer's</a>
+<a class="w3-bar-item w3-button" href="#">About</a>
+<a class="w3-bar-item w3-button" href="#">Message Us</a>
+</nav>
+
+<header class="w3-bar w3-card w3-theme">
+  <button class="w3-bar-item w3-button w3-xxxlarge w3-hover-theme" onclick="openSidebar()">&#9776;</button>
+  <h1 class="w3-bar-item">Developer's</h1>
+</header>
+
+<div class="w3-container">
+<hr>
+<div class="w3-cell-row">
+  <div class="w3-cell" style="width:30%">
+    <img class="w3-circle" src="D1.png" style="width:100%">
+  </div>
+  <div class="w3-cell w3-container">
+    <h3> Nazareta, Daniel Sarmiento</h3>
+    <p> BSIT 3-3</p>
+    <p> "Hateful to me as the gates of Hades is that man who hides one thing in his heart and speaks another".</p>
+  </div>
+  </div>
+<hr> 
+<div class="w3-cell-row">
+  <div class="w3-cell" style="width:30%">
+    <img class="w3-circle" src=".jpg" style="width:100%">
+  </div>
+  <div class="w3-cell w3-container">
+    <h3>Fatima Ocampo Masanque</h3>
+    <p>	BSIT 3-3</p>
+    <p> </p>
+  </div>
+</div>
+<hr>
+<div class="w3-cell-row">
+  <div class="w3-cell" style="width:30%">
+    <img class="w3-circle" src="L1.jpg" style="width:100%">
+  </div>
+  <div class="w3-cell w3-container">
+    <h3>Learose Miras</h3>
+    <p>	BSIT 3-3</p>
+    <p> </p>
+  </div>
+</div>
+<hr>
+<div class="w3-cell-row">
+  <div class="w3-cell" style="width:30%">
+    <img class="w3-circle" src="S1.jpg" style="width:100%">
+  </div>
+  <div class="w3-cell w3-container">
+    <h3>Stephen Richvi M. Fortit</h3>
+    <p>	BSIT 3-3</p>
+    <p> "Bad decision make good stories".</p>
+  </div>
+</div>
+<hr>
+<div class="w3-cell-row">
+  <div class="w3-cell" style="width:30%">
+    <img class="w3-circle" src="E1.jpg" style="width:100%">
+  </div>
+  <div class="w3-cell w3-container">
+    <h3>Edric Charles Mariñas</h3>
+    <p> BSIT 3-3</p>
+    <p> "I make decisions that I regret, and I took them as my learning experience".</p>
+  </div>
+</div>
+<footer class="w3-container w3-theme w3-margin-top">
+  <h3>Copyrigth SJC BSIT students 2021@</h3>
+</footer>
+
+<script>
+closeSidebar();
+function openSidebar() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeSidebar() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
