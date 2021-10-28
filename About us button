@@ -11,24 +11,49 @@
   <span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large">X</span>
   <br>
   <div class="w3-padding w3-center">
-    <img class="w3-circle" src="logo.png" alt="avatar" style="width: 110%">
+   <img class="w3-circle" src="logo.png" alt="avatar" style="width: 100%" >
   </div>
 </div>
 <a class="w3-bar-item w3-button" href="MovieG.html">Movies</a>
 <a class="w3-bar-item w3-button" href="developer's.html">Developer's</a>
 <a class="w3-bar-item w3-button" href="About.html">About</a>
-<a class="w3-bar-item w3-button" href="#">Message Us</a>
+<a class="w3-bar-item w3-button" href="Message Us.html">Message Us</a>
 </nav>
-
-
-
-
-
 
 <header class="w3-bar w3-card w3-theme">
   <button class="w3-bar-item w3-button w3-xxxlarge w3-hover-theme" onclick="openSidebar()">&#9776;</button>
   <h1 class="w3-bar-item">About us</h1>
 </header>
+<div class="w3-container">
+<hr>
+
+<div class="w3-cell-row">
+  <div class="w3-cell" style="width:30%">
+   <img class="w3-circle" src="logo.png" style="width:300%" class="rigth" "height="500">
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p1 {
+  font-size: 20px;
+}
+p {
+  font-size: 50px;
+}
+h3 {
+  font-size: 40px;
+}
+
+</style>
+  </div>
+  <div class="w3-cell w3-container">
+    <h3 style="font-family:jokerman" "text-align:left;" > MovieG</h3>
+    <p1 style="text-align:left;"> BSIT 3-3</p1>
+    <p style="font-family:chiller" "text-align:left;" > "Hard work is an essential element in tracking down and perfecting a strategy or in executing it.".</p>
+  </div>
+  </div>
 
 
 <footer class="w3-container w3-theme w3-margin-top">
